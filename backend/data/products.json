@@ -1,0 +1,236 @@
+[
+  {
+    "id": "cpu-1",
+    "name": "AMD Ryzen 5 7600X",
+    "category": "cpu",
+    "price": 8000,
+    "image": "/images/cpu.png",
+    "specs": {
+      "socket": "AM5",
+      "tdp": 105
+    }
+  },
+  {
+    "id": "cpu-2",
+    "name": "AMD Ryzen 7 7800X3D",
+    "category": "cpu",
+    "price": 14000,
+    "image": "/images/cpu.png",
+    "specs": {
+      "socket": "AM5",
+      "tdp": 120
+    }
+  },
+  {
+    "id": "cpu-3",
+    "name": "Intel Core i5-13600K",
+    "category": "cpu",
+    "price": 10000,
+    "image": "/images/cpu.png",
+    "specs": {
+      "socket": "LGA1700",
+      "tdp": 125
+    }
+  },
+  {
+    "id": "mb-1",
+    "name": "ASUS ROG STRIX B650-A GAMING WIFI",
+    "category": "motherboard",
+    "price": 9500,
+    "image": "/images/motherboard.png",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "memoryType": "DDR5",
+      "m2Slots": 3
+    }
+  },
+  {
+    "id": "mb-2",
+    "name": "MSI MAG B650M MORTAR WIFI",
+    "category": "motherboard",
+    "price": 7500,
+    "image": "/images/motherboard.png",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "Micro-ATX",
+      "memoryType": "DDR5",
+      "m2Slots": 2
+    }
+  },
+  {
+    "id": "mb-3",
+    "name": "MSI MAG Z790 TOMAHAWK WIFI",
+    "category": "motherboard",
+    "price": 11000,
+    "image": "/images/motherboard.png",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "memoryType": "DDR5",
+      "m2Slots": 4
+    }
+  },
+  {
+    "id": "ram-1",
+    "name": "Corsair Vengeance RGB 32GB (2x16GB) DDR5 6000MHz",
+    "category": "ram",
+    "price": 4000,
+    "image": "/images/ram.png",
+    "specs": {
+      "memoryType": "DDR5",
+      "capacity": "32 GB",
+      "speed": 6000
+    }
+  },
+  {
+    "id": "ram-2",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5 6400MHz",
+    "category": "ram",
+    "price": 4800,
+    "image": "/images/ram.png",
+    "specs": {
+      "memoryType": "DDR5",
+      "capacity": "32 GB",
+      "speed": 6400
+    }
+  },
+  {
+    "id": "ram-3",
+    "name": "Kingston Fury Beast 16GB (1x16GB) DDR5 5600MHz",
+    "category": "ram",
+    "price": 2000,
+    "image": "/images/ram.png",
+    "specs": {
+      "memoryType": "DDR5",
+      "capacity": "16 GB",
+      "speed": 5600
+    }
+  },
+  {
+    "id": "gpu-1",
+    "name": "ASUS TUF Gaming GeForce RTX 4070 Ti",
+    "category": "gpu",
+    "price": 30000,
+    "image": "/images/gpu.png",
+    "specs": {
+      "length": 305,
+      "tdp": 285
+    }
+  },
+  {
+    "id": "gpu-2",
+    "name": "MSI GeForce RTX 4090 SUPRIM X",
+    "category": "gpu",
+    "price": 70000,
+    "image": "/images/gpu.png",
+    "specs": {
+      "length": 336,
+      "tdp": 450
+    }
+  },
+  {
+    "id": "case-1",
+    "name": "NZXT H9 Flow",
+    "category": "case",
+    "price": 5500,
+    "image": "/images/case.png",
+    "specs": {
+      "supportedFormFactors": ["ATX", "Micro-ATX", "Mini-ITX"],
+      "maxGpuLength": 435
+    }
+  },
+  {
+    "id": "case-2",
+    "name": "Fractal Design Pop Mini Air",
+    "category": "case",
+    "price": 3200,
+    "image": "/images/case.png",
+    "specs": {
+      "supportedFormFactors": ["Micro-ATX", "Mini-ITX"],
+      "maxGpuLength": 365
+    }
+  },
+  {
+    "id": "psu-1",
+    "name": "Corsair RM850x 850W 80+ Gold",
+    "category": "psu",
+    "price": 4800,
+    "image": "/images/psu.png",
+    "specs": {
+      "wattage": 850
+    }
+  },
+  {
+    "id": "psu-2",
+    "name": "Seasonic FOCUS GX-1000 1000W 80+ Gold",
+    "category": "psu",
+    "price": 6500,
+    "image": "/images/psu.png",
+    "specs": {
+      "wattage": 1000
+    }
+  },
+  {
+    "id": "psu-3",
+    "name": "Cooler Master MWE 650W 80+ Bronze",
+    "category": "psu",
+    "price": 2500,
+    "image": "/images/psu.png",
+    "specs": {
+      "wattage": 650
+    }
+  },
+  {
+    "id": "storage-1",
+    "name": "Samsung 990 PRO 2TB",
+    "category": "storage",
+    "price": 7000,
+    "image": "/images/ssd.png",
+    "specs": {
+      "interface": "M.2 NVMe",
+      "capacity": "2 TB",
+      "readSpeed": 7450,
+      "writeSpeed": 6900
+    }
+  },
+  {
+    "id": "storage-2",
+    "name": "Crucial P3 Plus 1TB",
+    "category": "storage",
+    "price": 2200,
+    "image": "/images/ssd.png",
+    "specs": {
+      "interface": "M.2 NVMe",
+      "capacity": "1 TB",
+      "readSpeed": 5000,
+      "writeSpeed": 3600
+    }
+  },
+  {
+    "id": "storage-3",
+    "name": "Samsung 870 EVO 1TB",
+    "category": "storage",
+    "price": 2500,
+    "image": "/images/ssd.png",
+    "specs": {
+      "interface": "SATA 3",
+      "capacity": "1 TB",
+      "readSpeed": 560,
+      "writeSpeed": 530
+    }
+  },
+  {
+    "id": "storage-4",
+    "name": "Seagate Barracuda 2TB",
+    "category": "storage",
+    "price": 1800,
+    "image": "/images/ssd.png",
+    "specs": {
+      "interface": "SATA 3",
+      "capacity": "2 TB",
+      "readSpeed": 220,
+      "writeSpeed": 210
+    }
+  }
+]
